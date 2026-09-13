@@ -1,8 +1,9 @@
 # CONTRACT.md — v2 (REAL TASK: Buy or Wait?)
 
 > **Only the Orchestrator edits this file.** All agents build strictly against it.
-> Submission repo root = `upstream/`. Their `upstream/AGENTS.md` governs logging and
-> submission rules; this file governs our module interfaces and decision rules.
+> Submission repo root = `upstream/`. The organizer's challenge rules (logging
+> protocol, submission format) apply; this file governs our module interfaces and
+> decision rules.
 
 ## 0. Task in one line
 For each of 250 requests: reconstruct the user's financial state, forecast 90 days of
@@ -133,6 +134,6 @@ empty); changes as set equality (reduce matched on event + amount within 1%); ex
 non-empty + mentions minimum balance. Output: overall + per-field accuracy + per-row diff.
 
 ## 8. Log protocol
-Their `upstream/AGENTS.md` §5 format, appended to `upstream/log.txt`, `tool=ZCode`,
+Structured build-transcript entries appended to `log.txt`, `tool=ZCode`,
 one entry per user turn (parent_agent for sub-agent entries: none — sub-agents report
 to orchestrator which logs the summary).

@@ -15,7 +15,7 @@ def _load_dotenv(path=REPO_ROOT / ".env"):
     """Load KEY=VALUE pairs from .env (repo root) if present.
 
     Real values from the environment always win over .env. The file is
-    gitignored and must never be committed (repo AGENTS.md §4).
+    gitignored and must never be committed.
     """
     if not path.exists():
         return

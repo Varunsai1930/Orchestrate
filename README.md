@@ -83,7 +83,7 @@ dataset/*.csv ──> code/state.py      reconstruct finances: recurrence detect
 | `tests/` | 19 tests — validator rules, eval math, gold self-score |
 | `tools/` | `harness.py` (one-command verification), `calibrate.py` (forecast knob search), `package.py`, evidence runners |
 | `RUN.md` | step-by-step run guide with expected outputs |
-| `SOLUTION.md` / `SOLUTION_REPORT.md` | approach overview + what was built and how it scores |
+| `SOLUTION_REPORT.md` | what was built, how it scores, and where the frontier is |
 | `decisions.md` | 37-entry decision log — every architecture call, bet and measured reversal |
 | `ARCHITECTURE_REVIEW.md` / `CLEANUP_REPORT.md` | honest self-audits: two audit rounds, 63 findings, all dispositioned |
 | `cache/evidence.jsonl` | shipped LLM evidence extractions — offline reproduction without an API key |
